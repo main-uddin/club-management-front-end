@@ -1,0 +1,36 @@
+.item__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 10px 20px 10px 20px;
+  box-shadow: 0 0 2px;
+  border-radius: 5px;
+}
+.list--container {
+  width: 50%;
+}
+.item__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.list-item__img--circle {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.item__text {
+  padding-right: 50px;
+}
+.item__text span {
+  font-weight: bold;
+}
+
+.update--btn {
+  margin-right: 15px;
+}
+.btn__contain {
+  display: flex;
+  flex-wrap: nowrap;
+}
